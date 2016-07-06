@@ -1,0 +1,11 @@
+.button-main {
+    @include mg-button();
+    background-color: $c-blue-primary;
+    color: white;
+    font-size: 17px;
+    line-height: 29px;
+
+    &:hover {
+        background-color: rgba($c-blue-primary,.85);
+    }
+}
