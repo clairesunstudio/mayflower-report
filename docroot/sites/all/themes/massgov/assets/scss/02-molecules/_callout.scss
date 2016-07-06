@@ -25,11 +25,15 @@
 	&__text {
 		color: $c-black-primary;
 		font-family: $f-base-serif;
-		font-size: rem(28);
+		font-size: rem(20);  // TODO: review mobile designs
 		font-weight: 400;
-		line-height: 40px;
 		padding-top:38px;
 		padding-bottom: 50px;
 		text-align: center;
+
+		@media($bp-x-small-min) {
+			font-size: rem(28);
+			line-height: em(40,28);
+		}
 	}
 }
