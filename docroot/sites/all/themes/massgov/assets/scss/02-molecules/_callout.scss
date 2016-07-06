@@ -1,0 +1,35 @@
+.callout {
+	border-bottom: 2px solid $c-gray-primary;
+
+	&__header {
+		text-align: center;
+
+		&:before,
+		&:after {
+			border-top: 4px solid $c-gray-primary;
+			content: "";
+			display: inline-block;
+			vertical-align: middle;
+			width: calc(50% - 45px);
+		}
+
+		svg {
+			display: inline-block;
+			height: 45px;
+			margin: 0 10px;
+			vertical-align: middle;
+			width: 60px;
+		}
+	}
+
+	&__text {
+		color: $c-black-primary;
+		font-family: $f-base-serif;
+		font-size: rem(28);
+		font-weight: 400;
+		line-height: 40px;
+		padding-top:38px;
+		padding-bottom: 50px;
+		text-align: center;
+	}
+}
