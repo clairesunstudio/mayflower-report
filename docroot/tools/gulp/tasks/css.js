@@ -7,7 +7,8 @@ var gulp          = require("gulp"),
     debug         = require("gulp-debug"),
     header        = require("gulp-header"),
     concat        = require("gulp-concat"),
-    sourcemaps    = require("gulp-sourcemaps");
+    sourcemaps    = require("gulp-sourcemaps"),
+    neat          = require('node-neat').includePaths;
 
 module.exports = function cssTask(config, env){
 
@@ -37,6 +38,9 @@ module.exports = function cssTask(config, env){
     gulp.task("css", function() {
 
         var gulpCss = gulp.src(cssConfig.src)
+            .pipe(sass({
+                includePaths: ['styles'].concat(neat)
+            }))
             .pipe(quench.drano())
             .pipe(sourcemaps.init())
             .pipe(sass(cssConfig.sass))
