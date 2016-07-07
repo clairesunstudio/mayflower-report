@@ -3,13 +3,21 @@
 
 // Base variables
 @import "00-base/breakpoints";
-@import "00-base/colors";
-@import "00-base/fonts";
+// @import "00-base/colors"; // should only be imported in the site's theme file
+// @import "00-base/fonts"; // should only be imported in the site's theme file
 @import "00-base/mixins";
 
 // Atoms - reusable styles
 @import "01-atoms/button-main";
+@import "01-atoms/button-secondary";
 
 // Molecules - chunks of code used in Organisms/Components
 @import "02-molecules/callout";
+
+// Organisms - components
+
+// Templates - page content types
+
+
+
 

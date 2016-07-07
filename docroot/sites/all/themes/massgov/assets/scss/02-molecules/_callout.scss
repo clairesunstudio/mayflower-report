@@ -1,12 +1,12 @@
 .callout {
-	border-bottom: 2px solid $c-gray-primary;
+	border-bottom: 2px solid;
 
 	&__header {
 		text-align: center;
 
 		&:before,
 		&:after {
-			border-top: 4px solid $c-gray-primary;
+			border-top: 4px solid;
 			content: "";
 			display: inline-block;
 			vertical-align: middle;
@@ -23,9 +23,7 @@
 	}
 
 	&__text {
-		color: $c-black-primary;
-		font-family: $f-body-serif;
-		font-size: rem(20);  // TODO: review mobile designs
+		font-size: rem(20);
 		font-weight: 400;
 		padding-top:38px;
 		padding-bottom: 50px;

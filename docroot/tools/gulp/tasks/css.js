@@ -46,7 +46,6 @@ module.exports = function cssTask(config, env){
             .pipe(sass(cssConfig.sass))
             .pipe(autoprefixer(cssConfig.autoprefixer))
             .pipe(pixrem("16px",{atrules: true, html: true}))
-            .pipe(concat(cssConfig.filename, {newLine: ""}))
             .pipe(rename({
                 suffix: "-generated"
             }));
