@@ -1,0 +1,9 @@
+.mg__button-secondary {
+    background-color: $c-green-primary;
+    color: white;
+    font-family: $f-display;
+
+    &:hover {
+        background-color: rgba($c-green-primary,.85);
+    }
+}

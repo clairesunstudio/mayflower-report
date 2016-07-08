@@ -1,0 +1,20 @@
+.mg__callout {
+    border-bottom-color: $c-gray-primary;
+
+    &__header {
+
+        &:before,
+        &:after {
+            border-top-color: $c-gray-primary;
+        }
+
+        svg {
+            fill: $c-yellow-secondary; 
+        }
+    }
+
+    &__text {
+        color: $c-black-primary;
+        font-family: $f-body-serif;
+    }
+}

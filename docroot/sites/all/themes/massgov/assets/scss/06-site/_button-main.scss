@@ -1,0 +1,9 @@
+.mg__button-main {
+    background-color: $c-blue-primary;
+    color: white;
+    font-family: $f-display;
+
+    &:hover {
+        background-color: rgba($c-blue-primary,.85);
+    }
+}
