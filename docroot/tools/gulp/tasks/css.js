@@ -8,9 +8,15 @@ var gulp          = require("gulp"),
     header        = require("gulp-header"),
     concat        = require("gulp-concat"),
     sourcemaps    = require("gulp-sourcemaps"),
+    normalize     = require('node-normalize-scss').includePaths,
     neat          = require('node-neat').includePaths;
 
 module.exports = function cssTask(config, env){
+
+    var path = ['styles'];
+
+    path = path.concat(neat);
+    path = path.concat(normalize);
 
     // css settings
     var cssConfig = {
@@ -21,7 +27,7 @@ module.exports = function cssTask(config, env){
 
         sass: {
             outputStyle: env.development() ? "nested" : "compressed",
-            includePaths: ['styles'].concat(neat)
+            includePaths: path
         },
 
         autoprefixer: {

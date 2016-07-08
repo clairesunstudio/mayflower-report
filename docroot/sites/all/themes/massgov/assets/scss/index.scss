@@ -1,5 +1,10 @@
+// Sass framework added in npm
 @import "bourbon";
 @import "neat";
+
+// normalize the css across browsers added in npm
+@import "normalize";
+
 
 // Base variables
 @import "00-base/breakpoints";
