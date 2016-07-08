@@ -11,10 +11,10 @@
 @import "01-atoms/button-main";
 @import "01-atoms/button-secondary";
 
-// Molecules - chunks of code used in Organisms/Components
-@import "02-molecules/callout";
+// Molecules - chunks of code that are used in Organisms/Components
 
 // Organisms - components
+@import "03-organisms/callout";
 
 // Templates - page content types
 
