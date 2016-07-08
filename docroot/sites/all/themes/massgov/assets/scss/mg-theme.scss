@@ -2,7 +2,7 @@
 @import "06-site/fonts";
 
 // TODO should these be seperate files?
-.button-main {
+.mg__button-main {
     background-color: $c-blue-primary;
     color: white;
     font-family: $f-display;
@@ -12,7 +12,7 @@
     }
 }
 
-.button-secondary {
+.mg__button-secondary {
     background-color: $c-green-primary;
     color: white;
     font-family: $f-display;
@@ -22,7 +22,7 @@
     }
 }
 
-.callout {
+.mg__callout {
     border-bottom-color: $c-gray-primary;
 
     &__header {
