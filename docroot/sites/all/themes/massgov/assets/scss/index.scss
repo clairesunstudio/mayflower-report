@@ -5,12 +5,12 @@
 // normalize the css across browsers added in npm
 @import "normalize";
 
-
 // Base variables
-@import "00-base/breakpoints";
 // @import "00-base/colors"; // should only be imported in the site's theme file
 // @import "00-base/fonts"; // should only be imported in the site's theme file
+@import "00-base/breakpoints";
 @import "00-base/mixins";
+@import "00-base/z-index";
 
 // Atoms - reusable styles
 @import "01-atoms/button-main";
