@@ -1,9 +1,9 @@
 .mg__button-main {
-    background-color: $c-blue-primary;
-    color: white;
+    background-color: $c-theme-primary-1;
+    color: $c-font-inverse;
     font-family: $f-display;
 
     &:hover {
-        background-color: rgba($c-blue-primary,.85);
+        background-color: rgba($c-theme-primary-1,.85);
     }
 }
