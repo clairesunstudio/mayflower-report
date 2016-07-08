@@ -20,7 +20,8 @@ module.exports = function cssTask(config, env){
         filename: "index.css",
 
         sass: {
-            outputStyle: env.development() ? "nested" : "compressed"
+            outputStyle: env.development() ? "nested" : "compressed",
+            includePaths: ['styles'].concat(neat)
         },
 
         autoprefixer: {
@@ -38,9 +39,6 @@ module.exports = function cssTask(config, env){
     gulp.task("css", function() {
 
         var gulpCss = gulp.src(cssConfig.src)
-            .pipe(sass({
-                includePaths: ['styles'].concat(neat)
-            }))
             .pipe(quench.drano())
             .pipe(sourcemaps.init())
             .pipe(sass(cssConfig.sass))
