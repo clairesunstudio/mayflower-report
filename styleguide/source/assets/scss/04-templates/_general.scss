@@ -57,11 +57,11 @@
 // narrow page template
 $narrow-template-bg-offset-full: calc(50% - 320px);
 $narrow-template-bg-offset-narrow: calc(50% - 125px);
-$narrow-template-max-width: 670px;
+$narrow-template-max-width: 800px;
 $narrow-template-header-height: 170px;
 
 @keyframes narrow-template-bg-full-left {
-  0% { 
+  0% {
     left: 150%;
   }
   100% {
@@ -70,7 +70,7 @@ $narrow-template-header-height: 170px;
 }
 
 @keyframes narrow-template-bg-narrow-left {
-  0% { 
+  0% {
     left: 150%;
   }
   100% {
@@ -79,7 +79,7 @@ $narrow-template-header-height: 170px;
 }
 
 @keyframes narrow-template-bg-full-right {
-  0% { 
+  0% {
     right: 150%;
   }
   100% {
@@ -88,7 +88,7 @@ $narrow-template-header-height: 170px;
 }
 
 @keyframes narrow-template-bg-narrow-right {
-  0% { 
+  0% {
     right: 150%;
   }
   100% {
@@ -172,7 +172,7 @@ $narrow-template-header-height: 170px;
 
   &__content {
     flex-grow: 0;
-    padding-bottom: 170px;  // helps vertically align the page content 
+    padding-bottom: 170px;  // helps vertically align the page content
     position: relative;
     text-align: center;
   }
