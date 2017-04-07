@@ -2,7 +2,7 @@
 // $column: 85px;
 // $gutter: 20px;
 
-.ma__action-details {
+.ma__report-details {
 
   &__title {
     @include ma-heading-colored();
@@ -60,7 +60,7 @@
 
     &[data-sticky='middle'] {
       position: fixed;
-        top: 0px;
+        top: 40px;
 
       @media ($bp-medium-min) {
         top: 15px;
