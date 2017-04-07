@@ -1,0 +1,10 @@
+{
+    "yearSearch": {
+        "id": "year",
+        "placeholder": "year"
+    },
+    "qrSearch": {
+        "id": "qr",
+        "placeholder": "quarter"
+    }
+}

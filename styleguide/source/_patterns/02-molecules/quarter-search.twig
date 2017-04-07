@@ -1,0 +1,13 @@
+<section class="ma__qr-search">
+    <form action="#" class="ma__form">
+        <input id="{{yearSearch.id}}" class="ma__qr-search__input" placeholder="{{yearSearch.placeholder}}" type="number" min="2016" max="2017" required/> /
+        <input id="{{qrSearch.id}}" class="ma__qr-search__input" placeholder="{{qrSearch.placeholder}}" type="number" min="1" max="4" required/>
+        {% include "@atoms/01-buttons/quarter-button-search.twig" %}
+    </form>
+</section>
+
+<style>
+input[type=number]{
+  width: 120px;
+}
+</style>
