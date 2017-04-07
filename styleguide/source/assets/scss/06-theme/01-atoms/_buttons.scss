@@ -1,3 +1,7 @@
+button {
+  @include ma-font(400);
+}
+
 .ma__button {
   @include ma-button("normal","solid",$c-theme-blue);
 }
@@ -21,6 +25,7 @@
   background-color: $c-white;
   border-color: $c-bd-input;
   color: $c-theme-green;
+  font-size: 14px;
 
   &:hover {
     background-color: $c-theme-green;

@@ -1,0 +1,18 @@
+.ma__utility-panel {
+
+  &__description {
+    @include ma-font(300);
+  }
+
+  &__item {
+    background-color: rgba($c-white, 0.2);
+
+    a {
+      @include ma-font(500);
+    }
+
+    svg {
+      fill: $c-font-inverse;
+    }
+  }
+}

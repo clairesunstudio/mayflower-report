@@ -49,6 +49,7 @@
       { 
           "@context": "http://schema.org",
           "@type": "Organization",
+          "@id": "{{ urlDomain }}/#organization",
           "url": "{{urlDomain}}",
           "logo": "{{ urlDomain ~ '/' ~ directory ~ '/images/stateseal-color.png' }}",
           "name": "Commonwealth of Massachusetts",
@@ -91,7 +92,3 @@
     </script>  
   </head>
   <body class="{{ bodyClass }}" vocab="http://schema.org/" typeof="WebPage">
-    <!-- Fix: Chrome doesn't always render the first SVG use tag -->
-    <img aria-hidden="true" alt="icon-sprite" src="/assets/images/svg-sprite.svg" style="display:none" />
-
-
