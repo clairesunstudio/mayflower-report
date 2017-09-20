@@ -49,10 +49,6 @@
           {% include "@atoms/09-media/video.twig" %}
         {% endif %} -->
 
-        {% block pageContent %}
-          {% include "@base/placeholder.twig" with {'placeholder':{'text':'Page Content'}} %}
-        {% endblock %}
-
         {% if mainContent.formDownloads %}
           {% set formDownloads = mainContent.formDownloads %}
           {% include "@organisms/by-author/form-downloads.twig" %}
@@ -68,26 +64,8 @@
           {% include "@organisms/by-author/footnote-list.twig" %}
         {% endif %}
       </div>
-      <aside class="sidebar {{ sidebar.coloredHeadings ? 'sidebar--colored' : '' }}">
-        {% if sideContent.contactList %}
-          {% set contactList = sideContent.contactList %}
-          {% include "@organisms/by-author/contact-list.twig" %}
-        {% endif %}
-
-        {% if sideContent.pressListing %}
-          {% set pressListing = sideContent.pressListing %}
-          {% include "@organisms/by-author/press-listing.twig" %}
-        {% endif %}
-
-        {% if sideContent.eventListing %}
-          {% set eventListing = sideContent.eventListing %}
-          {% include "@organisms/by-author/event-listing.twig" %}
-        {% endif %}
-
-        {% block sidebar %}
-          {% include "@base/placeholder.twig" with {'placeholder':{'text':'sidebar'}} %}
-        {% endblock %}
-      </aside>
+      <!-- <aside class="sidebar {{ sidebar.coloredHeadings ? 'sidebar--colored' : '' }}">
+      </aside> -->
     </div>
   </div>
   <div class="post-content">
