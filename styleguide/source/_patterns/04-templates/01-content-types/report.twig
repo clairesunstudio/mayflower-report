@@ -74,7 +74,10 @@
   </div>
   <div class="post-content">
     {% block postContent %}
-      {% include "@base/placeholder.twig" with {'placeholder':{'text':'Post Content'}} %}
+      {% set backButton = postContent.backButton %}
+      {% include "@molecules/back-button.twig" %}
+      {% set pageFlipper = postContent.pageFlipper %}
+      {% include "@organisms/by-author/page-flipper.twig" %}
     {% endblock %}
   </div>
   {% block schemaContent %}{% endblock %}

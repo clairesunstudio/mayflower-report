@@ -257,6 +257,47 @@
     }
   },
 
+  "postContent": {
+    "backButton": {
+      "link": {
+        "href": "#",
+        "text": "Back to Regulation",
+        "info": "Back to Regulation CMR 930"
+      }
+    },
+    "pageFlipper": {
+      "prev": {
+        "arrowButton": {
+          "href": "#",
+          "info": "930 CMR 5.00",
+          "direction": "left"
+        },
+        "label": "Previous Section",
+        "title": "930 CMR 5.00",
+        "link": {
+          "href": "#",
+          "text": "Exemptions from M.G.L. C. 268A and M.G.L. C. 268B Related to Gifts",
+          "info": ""
+        }
+      },
+      "next": {
+        "arrowButton": {
+          "href": "#",
+          "info": "930 CMR 7.00",
+          "direction": "right"
+        },
+        "label": "Next Section",
+        "title": "930 CMR 7.00",
+        "link": {
+          "href": "#",
+          "text": "Definition of Governmental Body",
+          "info": ""
+        }
+      }
+    }
+  },
+
+
   "sideContent": {
     "contactList": {
       "viewSpecific": true,
