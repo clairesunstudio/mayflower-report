@@ -1,0 +1,100 @@
+
+{# site header #}
+{% block header %}{% endblock %}
+
+<main id="main-content" class="ma__policy-advisory" tabindex="-1">
+  <div class="pre-content">
+    {% block preContent %}
+      {% include "@organisms/by-template/illustrated-header.twig" %}
+    {% endblock %}
+  </div>
+    <div class="main-content main-content--two ma__policy-advisory__top-contact">
+      <div class="page-content">
+        {% if sideContent.contactList %}
+          {% set contactList = sideContent.contactList %}
+          {% include "@organisms/by-author/contact-list.twig" %}
+        {% endif %}
+      </div>
+    </div>
+  <div class="ma__policy-advisory__content">
+    {% if jumpLinks %}
+      {% include "@organisms/by-template/jump-links.twig" %}
+    {% endif %}
+    <div class="main-content main-content--full">
+      <div class="page-content">
+        {% for richText in mainContent.contents %}
+          {% include "@organisms/by-author/rich-text.twig" %}
+        {% endfor %}
+
+        {% if mainContent.iframe %}
+          {% set iframe = mainContent.iframe[0] %}
+          {% include "@atoms/09-media/iframe.twig" %}
+        {% endif %}
+
+        {% if mainContent.iframe %}
+          {% set iframe = mainContent.iframe[1] %}
+          {% include "@atoms/09-media/iframe.twig" %}
+        {% endif %}
+
+        {% if mainContent.iframe %}
+          {% set iframe = mainContent.iframe[2] %}
+          {% include "@atoms/09-media/iframe.twig" %}
+        {% endif %}
+
+        {% if mainContent.iframe %}
+          {% set iframe = mainContent.iframe[3] %}
+          {% include "@atoms/09-media/iframe.twig" %}
+        {% endif %}
+
+        {% if mainContent.iframe %}
+          {% set iframe = mainContent.iframe[4] %}
+          {% include "@atoms/09-media/iframe.twig" %}
+        {% endif %}
+
+        {% if mainContent.iframe %}
+          {% set iframe = mainContent.iframe[5] %}
+          {% include "@atoms/09-media/iframe.twig" %}
+        {% endif %}
+
+        <!-- {% if mainContent.figure %}
+          {% set figure = mainContent.figure %}
+          {% include "@atoms/09-media/figure.twig" %}
+        {% endif %} -->
+
+        <!-- {% if mainContent.video %}
+          {% set video = mainContent.video %}
+          {% include "@atoms/09-media/video.twig" %}
+        {% endif %} -->
+
+        {% if mainContent.formDownloads %}
+          {% set formDownloads = mainContent.formDownloads %}
+          {% include "@organisms/by-author/form-downloads.twig" %}
+        {% endif %}
+
+        {% if mainContent.contactList %}
+          {% set contactList = mainContent.contactList %}
+          {% include "@organisms/by-author/contact-list.twig" %}
+        {% endif %}
+
+        {% if mainContent.footnoteList %}
+          {% set footnoteList = mainContent.footnoteList %}
+          {% include "@organisms/by-author/footnote-list.twig" %}
+        {% endif %}
+      </div>
+      <!-- <aside class="sidebar {{ sidebar.coloredHeadings ? 'sidebar--colored' : '' }}">
+      </aside> -->
+    </div>
+  </div>
+  <div class="post-content">
+    {% block postContent %}
+      {% set backButton = postContent.backButton %}
+      {% include "@molecules/back-button.twig" %}
+      {% set pageFlipper = postContent.pageFlipper %}
+      {% include "@organisms/by-author/page-flipper.twig" %}
+    {% endblock %}
+  </div>
+  {% block schemaContent %}{% endblock %}
+</main>
+
+{# site footer #}
+{% block footer %}{% endblock %}
