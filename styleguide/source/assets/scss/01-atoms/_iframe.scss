@@ -1,25 +1,29 @@
 .ma__iframe {
-  @include clearfix;
-  
   &__container {
     font-size: 0;
     padding: 13px;
   }
 
   @media ($bp-small-min) {
-  
+    &--full{
+      @include clearfix
+    }
+    &--left &__container {
+      float: left;
+      margin-bottom: 1em;
+      width: 49%;
+    }
     &--right &__container {
       float: right;
-      margin-left: 1em;
       margin-bottom: 1em;
-      width: 50%;
+      width: 49%;
     }
   }
 
   .main-content--full .page-content > & {
     @include ma-container();
   }
-  
+
   &__link {
     margin-top: 12px;
   }
