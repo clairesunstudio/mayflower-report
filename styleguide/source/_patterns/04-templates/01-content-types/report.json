@@ -20,6 +20,21 @@
               }]
             }
           }
+        },
+        {
+          "path": "@organisms/by-author/rich-text.twig",
+          "data": {
+            "richText": {
+              "rteElements": [{
+                "path": "atoms-paragraph",
+                "data": {
+                  "paragraph" : {
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sunt deleniti fuga consequuntur laudantium qui repellendus eveniet, culpa ipsum ullam libero quibusdam dolore, sit. Quasi alias sed atque saepe, tempora dolore dolor quod amet. Quaerat omnis illo, totam eligendi at."
+                  }
+                }
+              }]
+            }
+          }
         }],
         "headerTags": null
       }
