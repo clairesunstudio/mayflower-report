@@ -44,11 +44,6 @@
           {% set footnoteList = mainContent.footnoteList %}
           {% include "@organisms/by-author/footnote-list.twig" %}
         {% endif %}
-
-        {% if mainContent.references %}
-          {% set headerTags = mainContent.references %}
-          {% include "@molecules/header-tags.twig" %}
-        {% endif %}
       </div>
       <aside class="sidebar {{ sidebar.coloredHeadings ? 'sidebar--colored' : '' }}">
         {% if sideContent.contactList %}

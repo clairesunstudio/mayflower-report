@@ -243,17 +243,6 @@
           }]
         }
       }]
-    },
-
-    "references": {
-      "label": "Referenced Legislation:",
-      "taxonomyTerms": [{
-        "href": "#",
-        "text": "Reference 1"
-      },{
-        "href": "#",
-        "text": "Reference 2"
-      }]
     }
   },
 
