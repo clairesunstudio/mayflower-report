@@ -1,61 +1,31 @@
 {
-  "pageHeader": {
-    "category": "required category",
-    "divider": false,
-    "title": "Title",
-    "subTitle": "",
-    "headerTags": {
-      "label": "Related to:",
-      "taxonomyTerms": [{
-        "href": "#",
-        "text": "Parent Page"
-      },{
-        "href": "#",
-        "text": "Another Parent Page"
-      }]
-    },
-    "socialLinks": null,
-    "publishState": {
-      "text": "Draft"
-    },
-    "optionalContents": [{
-      "path": "@molecules/listing-table.twig",
-      "data": {
-        "listingTable": {
-          "rows": [{
-            "label": "Date:",
-            "text": "3/2/2017"
-          },{
-            "label": "Issuer:",
-            "text": "Mark E. Nunnelly, Commissioner of Revenue"
-          }]
-        }
-      }
-    },{
-      "path": "@organisms/by-author/rich-text.twig",
-      "data": {
-        "richText": {
-          "property": "",
-          "rteElements": [{
-            "path": "@atoms/11-text/paragraph.twig",
-            "data": {
-              "paragraph" : {
-                "text": "<b><i>Optional Description of this policy</i></b>"
-              }
+
+    "illustratedHeader": {
+      "bgInfo": "Forest of the Berkshires",
+      "bgImage": "../../assets/images/placeholder/600x450.png",
+      "category": "Report",
+      "pageHeader": {
+        "title": "Medical Marijuana Monthly Report",
+        "subTitle": "",
+        "optionalContents": [{
+          "path": "@molecules/listing-table.twig",
+          "data": {
+            "listingTable": {
+              "rows": [{
+                "label": "Date of Release:",
+                "text": "10/1/2017"
+              },{
+                "label": "Authoring Organization:",
+                "text": "Department of Public Health"
+              }]
             }
-          },{
-            "path": "@atoms/11-text/paragraph.twig",
-            "data": {
-              "paragraph" : {
-                "text": "Explicabo itaque possimus dignissimos? Repudiandae tempore, fugit illum? Iure error omnis eveniet eius iste molestias. Veritatis provident hic voluptate voluptatibus ullam accusantium, obcaecati tempora soluta praesentium accusamus sed dicta sapiente."
-              }
-            }
-          }]
-        }
+          }
+        }],
+        "headerTags": null
       }
-    }],
-    "widgets": null
-  },
+    },
+
+
 
   "jumpLinks": {
     "title": "In this Section",
