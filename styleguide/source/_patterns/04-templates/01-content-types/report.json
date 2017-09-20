@@ -86,15 +86,38 @@
             "text": "Lorem ipsum dolor sit amet, consectetur<a class=\"ma__rich-text__footnote js-rich-text-footnote\" id=\"footnoteref2\" title=\"source for this information\" href=\"#footnotemsg2\">2</a> adipisicing elit. Tenetur consectetur eligendi recusandae, blanditiis nisi quibusdam, dolor voluptas dolore unde eius, eos esse doloremque enim? Culpa delectus excepturi beatae eos quod distinctio, ipsam ratione ad architecto doloremque modi eius consectetur at facere. Nobis, laboriosam, officia. Itaque maiores porro voluptates, sint sed dolore! Omnis, iusto sed est!"
           }
         }
-      },{
-        "path": "@atoms/11-text/paragraph.twig",
-        "data": {
-          "paragraph" : {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur consectetur eligendi recusandae, blanditiis nisi quibusdam, dolor voluptas dolore unde eius, eos esse doloremque enim? Culpa delectus excepturi beatae eos quod distinctio, ipsam ratione ad architecto doloremque modi eius consectetur at facere. Nobis, laboriosam, officia. Itaque maiores porro voluptates, sint sed dolore! Omnis, iusto sed est!"
-          }
-        }
       }]
     }],
+
+    "figure": {
+      "align": "",
+      "image": {
+        "alt": "alt text",
+        "src": "../../assets/images/placeholder/820x460.png",
+        "height": "",
+        "width": ""
+      },
+      "caption": "This is an optional caption that can wrap to multiple lines."
+    },
+
+    "video": {
+      "src": "https://www.youtube.com/embed/sBd6GWvCLX0",
+      "label": "Governor Charlie Baker: The state of our Commonwealth is strong",
+      "height": "315",
+      "width": "560",
+      "link": {
+        "href": "#",
+        "text": "View transcript"
+      },
+      "position": ""
+    },
+
+    "iframe": {
+      "src":"http://superset-sandbox.digital.mass.gov/superset/explore/table/11/?form_data=%7B%22datasource%22%3A%2211__table%22%2C%22viz_type%22%3A%22area%22%2C%22slice_id%22%3A73%2C%22granularity_sqla%22%3A%22month%22%2C%22time_grain_sqla%22%3A%22month%22%2C%22since%22%3A%222+years+ago%22%2C%22until%22%3A%22now%22%2C%22metrics%22%3A%5B%22sum__active_patients%22%2C%22sum__certified_patients%22%5D%2C%22groupby%22%3A%5B%5D%2C%22limit%22%3A50%2C%22timeseries_limit_metric%22%3Anull%2C%22show_brush%22%3Afalse%2C%22show_legend%22%3Atrue%2C%22line_interpolation%22%3A%22linear%22%2C%22stacked_style%22%3A%22stack%22%2C%22rich_tooltip%22%3Atrue%2C%22contribution%22%3Afalse%2C%22show_controls%22%3Afalse%2C%22x_axis_format%22%3A%22smart_date%22%2C%22x_axis_showminmax%22%3Atrue%2C%22y_axis_format%22%3Anull%2C%22y_axis_bounds%22%3A%5Bnull%2Cnull%5D%2C%22y_log_scale%22%3Afalse%2C%22rolling_type%22%3A%22None%22%2C%22time_compare%22%3Anull%2C%22num_period_compare%22%3A%22%22%2C%22period_ratio_type%22%3A%22growth%22%2C%22resample_how%22%3Anull%2C%22resample_rule%22%3Anull%2C%22resample_fillmethod%22%3Anull%2C%22where%22%3A%22%22%2C%22having%22%3A%22%22%2C%22filters%22%3A%5B%5D%7D&standalone=true&height=400",
+      "title": "Embed page title for accessibility",
+      "height": "853",
+      "position": ""
+    },
 
     "formDownloads": {
       "compHeading": {

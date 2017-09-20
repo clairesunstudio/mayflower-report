@@ -26,6 +26,21 @@
           {% include "@organisms/by-author/rich-text.twig" %}
         {% endfor %}
 
+        {% if mainContent.iframe %}
+          {% set video = mainContent.iframe %}
+          {% include "@atoms/09-media/iframe.twig" %}
+        {% endif %}
+
+        {% if mainContent.figure %}
+          {% set figure = mainContent.figure %}
+          {% include "@atoms/09-media/figure.twig" %}
+        {% endif %}
+
+        <!-- {% if mainContent.video %}
+          {% set video = mainContent.video %}
+          {% include "@atoms/09-media/video.twig" %}
+        {% endif %} -->
+
         {% block pageContent %}
           {% include "@base/placeholder.twig" with {'placeholder':{'text':'Page Content'}} %}
         {% endblock %}
