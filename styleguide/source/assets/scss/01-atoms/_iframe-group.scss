@@ -1,7 +1,13 @@
+.ma__iframe-group{
+    @include clearfix;
+}
 .ma__iframe {
+
   &__container {
+    width: 100%;
     font-size: 0;
     padding: 13px;
+    margin: 20px;
   }
 
   @media ($bp-small-min) {
@@ -10,15 +16,17 @@
       margin-bottom: 1em;
       width: 100%;
     }
+
     &--left &__container {
       float: left;
       margin-bottom: 1em;
-      width: 49%;
+      width: 45%;
     }
+
     &--right &__container {
       float: right;
       margin-bottom: 1em;
-      width: 49%;
+      width: 45%;
     }
   }
 
