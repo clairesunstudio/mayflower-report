@@ -45,8 +45,11 @@
   "jumpLinks": {
     "title": "In this Section",
     "links": [{
-      "text": "Rich Text",
-      "href": "rich-text"
+      "text": "Section 1",
+      "href": "section_1"
+    },{
+      "text": "Section 2",
+      "href": "section_2"
     },{
       "text": "Downloads",
       "href": "downloads"
@@ -59,20 +62,13 @@
   "mainContent": {
     "contents": [{
       "compHeading": {
-        "title": "Rich text",
+        "title": "Section 1",
         "sub": false,
         "color": "",
-        "id": "rich-text",
+        "id": "section_1",
         "centered": ""
       },
       "rteElements": [{
-        "path": "@atoms/11-text/paragraph.twig",
-        "data": {
-          "paragraph" : {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sunt deleniti fuga consequuntur laudantium qui repellendus eveniet, culpa ipsum ullam libero quibusdam dolore, sit. Quasi alias sed atque saepe, tempora dolore dolor quod amet. Quaerat omnis illo, totam eligendi at."
-          }
-        }
-      },{
         "path": "@atoms/11-text/paragraph.twig",
         "data": {
           "paragraph" : {
@@ -84,6 +80,22 @@
         "data": {
           "paragraph" : {
             "text": "Lorem ipsum dolor sit amet, consectetur<a class=\"ma__rich-text__footnote js-rich-text-footnote\" id=\"footnoteref2\" title=\"source for this information\" href=\"#footnotemsg2\">2</a> adipisicing elit. Tenetur consectetur eligendi recusandae, blanditiis nisi quibusdam, dolor voluptas dolore unde eius, eos esse doloremque enim? Culpa delectus excepturi beatae eos quod distinctio, ipsam ratione ad architecto doloremque modi eius consectetur at facere. Nobis, laboriosam, officia. Itaque maiores porro voluptates, sint sed dolore! Omnis, iusto sed est!"
+          }
+        }
+      }]
+    },{
+      "compHeading": {
+        "title": "Section 2",
+        "sub": false,
+        "color": "",
+        "id": "section_2",
+        "centered": ""
+      },
+      "rteElements": [{
+        "path": "@atoms/11-text/paragraph.twig",
+        "data": {
+          "paragraph" : {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sunt deleniti fuga consequuntur laudantium qui repellendus eveniet, culpa ipsum ullam libero quibusdam dolore, sit. Quasi alias sed atque saepe, tempora dolore dolor quod amet. Quaerat omnis illo, totam eligendi at."
           }
         }
       }]
