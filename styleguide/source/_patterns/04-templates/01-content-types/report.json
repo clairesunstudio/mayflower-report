@@ -124,11 +124,32 @@
       "position": ""
     },
 
+      "iframeGroup": {
+        "iframeLeft": {
+        "src": "https://massgov.github.io",
+        "title": "Embed page title for accessibility",
+        "height": "853",
+        "position": "left"
+      },
+      "iframeRight": {
+        "src": "https://massgov.github.io",
+        "title": "Embed page title for accessibility",
+        "height": "853",
+        "position": "right"
+      }
+      }
+
+
     "iframe": [{
       "src":"http://superset-sandbox.digital.mass.gov/superset/explore/table/11/?form_data=%7B%22datasource%22%3A%2211__table%22%2C%22viz_type%22%3A%22area%22%2C%22slice_id%22%3A73%2C%22granularity_sqla%22%3A%22month%22%2C%22time_grain_sqla%22%3A%22month%22%2C%22since%22%3A%222+years+ago%22%2C%22until%22%3A%22now%22%2C%22metrics%22%3A%5B%22sum__active_patients%22%2C%22sum__certified_patients%22%5D%2C%22groupby%22%3A%5B%5D%2C%22limit%22%3A50%2C%22timeseries_limit_metric%22%3Anull%2C%22show_brush%22%3Afalse%2C%22show_legend%22%3Atrue%2C%22line_interpolation%22%3A%22linear%22%2C%22stacked_style%22%3A%22stack%22%2C%22rich_tooltip%22%3Atrue%2C%22contribution%22%3Afalse%2C%22show_controls%22%3Afalse%2C%22x_axis_format%22%3A%22smart_date%22%2C%22x_axis_showminmax%22%3Atrue%2C%22y_axis_format%22%3Anull%2C%22y_axis_bounds%22%3A%5Bnull%2Cnull%5D%2C%22y_log_scale%22%3Afalse%2C%22rolling_type%22%3A%22None%22%2C%22time_compare%22%3Anull%2C%22num_period_compare%22%3A%22%22%2C%22period_ratio_type%22%3A%22growth%22%2C%22resample_how%22%3Anull%2C%22resample_rule%22%3Anull%2C%22resample_fillmethod%22%3Anull%2C%22where%22%3A%22%22%2C%22having%22%3A%22%22%2C%22filters%22%3A%5B%5D%7D&standalone=true&height=400",
       "title": "Embed page title for accessibility",
       "height": "400",
-      "position": "left"
+      "position": "left",
+      "link": {
+        "href": "#",
+        "text": "Lorem ipsum dolor sit amet.",
+        "info": ""
+      }
     },{
       "src":"http://superset-sandbox.digital.mass.gov/superset/explore/table/12/?form_data=%7B%22datasource%22%3A%2212__table%22%2C%22viz_type%22%3A%22bar%22%2C%22slice_id%22%3A74%2C%22granularity_sqla%22%3A%22month%22%2C%22time_grain_sqla%22%3A%22Time+Column%22%2C%22since%22%3A%223+years+ago%22%2C%22until%22%3A%22now%22%2C%22metrics%22%3A%5B%22sum__new_active_patients%22%2C%22sum__patients_purchased_mmj%22%5D%2C%22groupby%22%3A%5B%5D%2C%22limit%22%3A50%2C%22timeseries_limit_metric%22%3Anull%2C%22show_brush%22%3Afalse%2C%22show_legend%22%3Atrue%2C%22show_bar_value%22%3Afalse%2C%22rich_tooltip%22%3Atrue%2C%22contribution%22%3Afalse%2C%22line_interpolation%22%3A%22linear%22%2C%22bar_stacked%22%3Afalse%2C%22bottom_margin%22%3A75%2C%22show_controls%22%3Afalse%2C%22x_axis_format%22%3A%22smart_date%22%2C%22y_axis_format%22%3A%22.3s%22%2C%22x_axis_showminmax%22%3Atrue%2C%22reduce_x_ticks%22%3Afalse%2C%22x_axis_label%22%3A%22%22%2C%22y_axis_label%22%3A%22%22%2C%22y_axis_bounds%22%3A%5Bnull%2Cnull%5D%2C%22y_log_scale%22%3Afalse%2C%22rolling_type%22%3A%22None%22%2C%22time_compare%22%3Anull%2C%22num_period_compare%22%3A%22%22%2C%22period_ratio_type%22%3A%22growth%22%2C%22resample_how%22%3Anull%2C%22resample_rule%22%3Anull%2C%22resample_fillmethod%22%3Anull%2C%22where%22%3A%22%22%2C%22having%22%3A%22%22%2C%22filters%22%3A%5B%7B%22col%22%3A%22new_active_patients%22%2C%22op%22%3A%22in%22%2C%22val%22%3A%22%22%7D%5D%7D&standalone=true&height=400",
       "title": "Embed page title for accessibility",

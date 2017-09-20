@@ -26,6 +26,13 @@
           {% include "@organisms/by-author/rich-text.twig" %}
         {% endfor %}
 
+        {% if mainContent.iframeGroup %}
+          {% set iframeGroup.IframeLeft  = mainContent.iframeGroup.IframeLeft %}
+          {% set iframeGroup.IframeRight = mainContent.iframeGroup.IframeRight %}
+          {% include "@atoms/09-media/iframe-group.twig" %}
+        {% endif %}
+
+
         {% if mainContent.iframe %}
           {% set iframe = mainContent.iframe[0] %}
           {% include "@atoms/09-media/iframe.twig" %}
