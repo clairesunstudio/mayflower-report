@@ -5,7 +5,7 @@
       "bgImage": "../../assets/images/placeholder/600x450.png",
       "category": "Report",
       "pageHeader": {
-        "title": "Medical Marijuana Monthly Report",
+        "title": "Medical Marijuana Monthly Dashboard of Oct. 2017",
         "subTitle": "",
         "optionalContents": [{
           "path": "@molecules/listing-table.twig",
@@ -250,36 +250,36 @@
     "backButton": {
       "link": {
         "href": "#",
-        "text": "Back to Regulation",
-        "info": "Back to Regulation CMR 930"
+        "text": "Back to Report Listing",
+        "info": "Back to the monthly report listing"
       }
     },
     "pageFlipper": {
       "prev": {
         "arrowButton": {
           "href": "#",
-          "info": "930 CMR 5.00",
+          "info": "Previous Report",
           "direction": "left"
         },
         "label": "Previous Section",
-        "title": "930 CMR 5.00",
+        "title": "Report of September 2017",
         "link": {
           "href": "#",
-          "text": "Exemptions from M.G.L. C. 268A and M.G.L. C. 268B Related to Gifts",
+          "text": "Medical Marijuana Monthly Report of Sep. 2017",
           "info": ""
         }
       },
       "next": {
         "arrowButton": {
           "href": "#",
-          "info": "930 CMR 7.00",
+          "info": "Next Report",
           "direction": "right"
         },
         "label": "Next Section",
-        "title": "930 CMR 7.00",
+        "title": "Report of November 2017",
         "link": {
           "href": "#",
-          "text": "Definition of Governmental Body",
+          "text": "Medical Marijuana Monthly Report of Nov. 2017",
           "info": ""
         }
       }
