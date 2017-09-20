@@ -26,23 +26,40 @@
           {% include "@organisms/by-author/rich-text.twig" %}
         {% endfor %}
 
-
-        <div class="ma__iframe ">
-          <div class="ma__iframe__container js-ma-responsive-iframe">
-            <iframe height="400" src="http://superset-sandbox.digital.mass.gov/superset/explore/table/11/?form_data=%7B%22datasource%22%3A%2211__table%22%2C%22viz_type%22%3A%22area%22%2C%22slice_id%22%3A73%2C%22granularity_sqla%22%3A%22month%22%2C%22time_grain_sqla%22%3A%22month%22%2C%22since%22%3A%222+years+ago%22%2C%22until%22%3A%22now%22%2C%22metrics%22%3A%5B%22sum__active_patients%22%2C%22sum__certified_patients%22%5D%2C%22groupby%22%3A%5B%5D%2C%22limit%22%3A50%2C%22timeseries_limit_metric%22%3Anull%2C%22show_brush%22%3Afalse%2C%22show_legend%22%3Atrue%2C%22line_interpolation%22%3A%22linear%22%2C%22stacked_style%22%3A%22stack%22%2C%22rich_tooltip%22%3Atrue%2C%22contribution%22%3Afalse%2C%22show_controls%22%3Afalse%2C%22x_axis_format%22%3A%22smart_date%22%2C%22x_axis_showminmax%22%3Atrue%2C%22y_axis_format%22%3Anull%2C%22y_axis_bounds%22%3A%5Bnull%2Cnull%5D%2C%22y_log_scale%22%3Afalse%2C%22rolling_type%22%3A%22None%22%2C%22time_compare%22%3Anull%2C%22num_period_compare%22%3A%22%22%2C%22period_ratio_type%22%3A%22growth%22%2C%22resample_how%22%3Anull%2C%22resample_rule%22%3Anull%2C%22resample_fillmethod%22%3Anull%2C%22where%22%3A%22%22%2C%22having%22%3A%22%22%2C%22filters%22%3A%5B%5D%7D&amp;standalone=true&amp;height=400" allowfullscreen="" title=""></iframe>
-              </div>
-        </div>
-
-
         {% if mainContent.iframe %}
-          {% set video = mainContent.iframe %}
+          {% set iframe = mainContent.iframe[0] %}
           {% include "@atoms/09-media/iframe.twig" %}
         {% endif %}
 
-        {% if mainContent.figure %}
+        {% if mainContent.iframe %}
+          {% set iframe = mainContent.iframe[1] %}
+          {% include "@atoms/09-media/iframe.twig" %}
+        {% endif %}
+
+        {% if mainContent.iframe %}
+          {% set iframe = mainContent.iframe[2] %}
+          {% include "@atoms/09-media/iframe.twig" %}
+        {% endif %}
+
+        {% if mainContent.iframe %}
+          {% set iframe = mainContent.iframe[3] %}
+          {% include "@atoms/09-media/iframe.twig" %}
+        {% endif %}
+
+        {% if mainContent.iframe %}
+          {% set iframe = mainContent.iframe[4] %}
+          {% include "@atoms/09-media/iframe.twig" %}
+        {% endif %}
+
+        {% if mainContent.iframe %}
+          {% set iframe = mainContent.iframe[5] %}
+          {% include "@atoms/09-media/iframe.twig" %}
+        {% endif %}
+
+        <!-- {% if mainContent.figure %}
           {% set figure = mainContent.figure %}
           {% include "@atoms/09-media/figure.twig" %}
-        {% endif %}
+        {% endif %} -->
 
         <!-- {% if mainContent.video %}
           {% set video = mainContent.video %}
